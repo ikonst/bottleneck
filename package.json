@@ -1,5 +1,5 @@
 {
-  "name": "bottleneck",
+  "name": "@ikonst/bottleneck",
   "version": "2.19.5",
   "description": "Distributed task scheduler and rate limiter",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SGrondin/bottleneck"
+    "url": "https://github.com/ikonst/bottleneck"
   },
   "keywords": [
     "async rate limiter",
