@@ -52,10 +52,10 @@ makeTypings() {
   npx tsc --noEmit --strict test.ts
 }
 
-if [ "$1" = 'dev' ]; then
+if [ "$1" = 'bench' ]; then
   clean
   makeLib10
-elif [ "$1" = 'bench' ]; then
+elif [ "$1" = 'node6' ]; then
   clean
   makeLib6
 elif [ "$1" = 'es5' ]; then
@@ -74,7 +74,7 @@ else
   makeLight
 
   clean
-  makeLib6
+  makeLib10
   makeTypings
 fi
 
