@@ -41,7 +41,6 @@
     "coffeescript": "2.4.x",
     "ejs-cli": "github:SGrondin/ejs-cli#master",
     "ioredis": "^4.11.1",
-    "leakage": "^0.4.0",
     "mocha": "^6.1.4",
     "redis": "^2.8.0",
     "regenerator-runtime": "^0.12.1",
@@ -52,5 +51,7 @@
     "rollup-plugin-node-resolve": "^3.4.0",
     "typescript": "^2.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@token-cjg/leakage": "^0.6.0"
+  }
 }
